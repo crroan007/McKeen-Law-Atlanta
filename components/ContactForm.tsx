@@ -114,8 +114,8 @@ export default function ContactForm() {
                     <form onSubmit={handleSubmit} className="bg-cream p-8 rounded-lg shadow-sm border border-gray-200">
                         {/* Success Message */}
                         {submitted && (
-                            <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
-                                <p className="text-green-800 font-semibold">
+                            <div className="mb-6 p-4 bg-gold-50 border border-gold-200 rounded-lg">
+                                <p className="text-brandGreen-900 font-semibold">
                                     Thank you! We've received your message. An attorney will contact you within 24 hours.
                                 </p>
                             </div>
@@ -306,7 +306,7 @@ export default function ContactForm() {
                     </div>
 
                     {/* Hours */}
-                    <div className="bg-brandGreen-50 p-6 rounded-lg border border-brandGreen-200">
+                    <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
                         <h3 className="font-serif font-bold text-brandGreen-900 mb-3">Hours</h3>
                         <div className="text-sm text-gray-700 space-y-1">
                             <p><strong>Mon - Fri:</strong> 9:00 AM - 6:00 PM</p>

@@ -121,15 +121,15 @@ export default function Home() {
                             </p>
                             <ul className="space-y-3">
                                 <li className="flex items-start gap-2 text-sm text-gray-700">
-                                    <Clock className="w-4 h-4 text-brandGreen-500 flex-shrink-0 mt-0.5" />
+                                    <Clock className="w-4 h-4 text-gold-500 flex-shrink-0 mt-0.5" />
                                     <span>10-day ALS deadline for DUI</span>
                                 </li>
                                 <li className="flex items-start gap-2 text-sm text-gray-700">
-                                    <Gavel className="w-4 h-4 text-brandGreen-500 flex-shrink-0 mt-0.5" />
+                                    <Gavel className="w-4 h-4 text-gold-500 flex-shrink-0 mt-0.5" />
                                     <span>Early intervention = better deals</span>
                                 </li>
                                 <li className="flex items-start gap-2 text-sm text-gray-700">
-                                    <Star className="w-4 h-4 text-brandGreen-500 flex-shrink-0 mt-0.5" />
+                                    <Star className="w-4 h-4 text-gold-500 flex-shrink-0 mt-0.5" />
                                     <span>Secure critical evidence now</span>
                                 </li>
                             </ul>
