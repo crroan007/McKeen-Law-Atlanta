@@ -10,8 +10,12 @@ const config: Config = {
         extend: {
             colors: {
                 brandGreen: {
-                    900: '#242b33', // Rich Charcoal (Primary)
-                    800: '#2f3740', // Lighter Charcoal variant
+                    50: '#f8f9fa',   // Very light slate (for backgrounds)
+                    100: '#e9ecef',  // Light slate
+                    200: '#dee2e6',  // Lighter slate
+                    500: '#6c757d',  // Medium slate
+                    800: '#2f3740',  // Lighter Charcoal variant
+                    900: '#242b33',  // Rich Charcoal (Primary)
                 },
                 cream: {
                     DEFAULT: '#FBF9F3',
