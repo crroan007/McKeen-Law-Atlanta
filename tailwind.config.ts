@@ -17,8 +17,8 @@ const config: Config = {
                     DEFAULT: '#FBF9F3',
                 },
                 gold: {
-                    500: '#b5944a', // Legacy Gold
-                    600: '#a0823e', // Darker variant for hover
+                    500: '#b2934f', // Logo Gold (Primary)
+                    600: '#9d7f43', // Darker variant for hover
                 },
             },
             fontFamily: {

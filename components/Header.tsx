@@ -18,6 +18,7 @@ export default function Header() {
                         height={0}
                         sizes="100vw"
                         className="w-auto h-24 md:h-40 lg:h-56 object-contain object-left"
+                        style={{ filter: 'sepia(100%) saturate(150%) hue-rotate(10deg) brightness(0.9)' }}
                         priority
                     />
                 </Link>
