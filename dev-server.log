@@ -1,0 +1,104 @@
+
+> mckeen-law-site@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1317ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.8s (1319 modules)
+ ✓ Compiled in 272ms (643 modules)
+ GET / 200 in 3158ms
+ ✓ Compiled /[slug] in 326ms (1292 modules)
+ GET /favicon.ico 200 in 810ms
+ ✓ Compiled in 195ms (644 modules)
+ ✓ Compiled / in 102ms (658 modules)
+ ✓ Compiled /[slug] in 70ms (662 modules)
+ GET /favicon.ico 200 in 194ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 245ms (1302 modules)
+ GET / 200 in 210ms
+ ✓ Compiled /[slug] in 55ms (662 modules)
+ GET /favicon.ico 200 in 124ms
+ GET / 200 in 76ms
+ GET /favicon.ico 200 in 61ms
+ ✓ Compiled /contact in 420ms (1304 modules)
+ ✓ Compiled /[slug] in 72ms (671 modules)
+ GET /favicon.ico 200 in 172ms
+ ✓ Compiled in 217ms (1321 modules)
+ GET /favicon.ico 200 in 69ms
+ ✓ Compiled in 189ms (1321 modules)
+ ✓ Compiled in 173ms (1318 modules)
+ ✓ Compiled in 165ms (1317 modules)
+ ✓ Compiled in 206ms (1318 modules)
+ ✓ Compiled /[slug] in 67ms (671 modules)
+ GET /favicon.ico 200 in 162ms
+ GET /favicon.ico 200 in 72ms
+ ✓ Compiled in 363ms (1318 modules)
+ ✓ Compiled in 528ms (1318 modules)
+ ✓ Compiled in 399ms (1318 modules)
+ GET / 200 in 166ms
+ ✓ Compiled /[slug] in 284ms (671 modules)
+ GET /favicon.ico 200 in 453ms
+ GET / 200 in 107ms
+ GET /favicon.ico 200 in 76ms
+ GET / 200 in 121ms
+ GET /favicon.ico 200 in 38ms
+ GET / 200 in 74ms
+ GET /favicon.ico 200 in 36ms
+ GET / 200 in 76ms
+ GET /favicon.ico 200 in 71ms
+ ✓ Compiled in 399ms (650 modules)
+ ⨯ ./app/globals.css:1:1
+Syntax error: C:\Homebrew Apps\McKeen Law Site\mckeenlawatlanta.com\app\globals.css The `bg-cream` class does not exist. If `bg-cream` is a custom class, make sure it is defined within a `@layer` directive.
+
+[1m[31m>[39m[22m[90m 1 | [39m[36m@tailwind[39m base[33m;[39m
+ [90m   | [39m[1m[31m^[39m[22m
+ [90m 2 | [39m[36m@tailwind[39m components[33m;[39m
+ [90m 3 | [39m[36m@tailwind[39m utilities[33m;[39m
+ ○ Compiling /_error ...
+ ⨯ ./app/globals.css:1:1
+Syntax error: C:\Homebrew Apps\McKeen Law Site\mckeenlawatlanta.com\app\globals.css The `bg-cream` class does not exist. If `bg-cream` is a custom class, make sure it is defined within a `@layer` directive.
+
+[1m[31m>[39m[22m[90m 1 | [39m[36m@tailwind[39m base[33m;[39m
+ [90m   | [39m[1m[31m^[39m[22m
+ [90m 2 | [39m[36m@tailwind[39m components[33m;[39m
+ [90m 3 | [39m[36m@tailwind[39m utilities[33m;[39m
+ GET / 500 in 33ms
+ GET / 500 in 150ms
+ GET /favicon.ico 500 in 31ms
+ GET /favicon.ico 500 in 35ms
+ GET / 500 in 18ms
+ GET /favicon.ico 500 in 14ms
+ GET / 500 in 13ms
+ GET /favicon.ico 500 in 9ms
+ ⨯ ./app/globals.css:1:1
+Syntax error: C:\Homebrew Apps\McKeen Law Site\mckeenlawatlanta.com\app\globals.css The `bg-cream` class does not exist. If `bg-cream` is a custom class, make sure it is defined within a `@layer` directive.
+
+[1m[31m>[39m[22m[90m 1 | [39m[36m@tailwind[39m base[33m;[39m
+ [90m   | [39m[1m[31m^[39m[22m
+ [90m 2 | [39m[36m@tailwind[39m components[33m;[39m
+ [90m 3 | [39m[36m@tailwind[39m utilities[33m;[39m
+ GET / 500 in 22ms
+ GET /favicon.ico 500 in 6ms
+ ✓ Compiled /_not-found in 858ms (1550 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /_next/static/webpack/e672c44534661508.webpack.hot-update.json 404 in 665ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /_next/static/webpack/e672c44534661508.webpack.hot-update.json 404 in 151ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 184ms
+ GET /_next/static/webpack/e672c44534661508.webpack.hot-update.json 404 in 233ms
+ GET / 200 in 448ms
+ GET / 200 in 658ms
+ GET / 200 in 919ms
+ GET /favicon.ico 200 in 107ms
+ GET /favicon.ico 200 in 67ms
+ GET /favicon.ico 200 in 58ms
+ ○ Compiling /attorney ...
+ ✓ Compiled /attorney in 546ms (1547 modules)
+ ✓ Compiled in 164ms (835 modules)
+ ✓ Compiled /[slug] in 110ms (714 modules)
+ GET /favicon.ico 200 in 258ms
