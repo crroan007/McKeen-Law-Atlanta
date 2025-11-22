@@ -34,7 +34,7 @@ export const locationPages: Record<string, LocationPageContent> = {
         faqs: [
             { question: "Where will my case be heard?", answer: "Most Fulton DUIs file in State Court; some begin in Municipal. We confirm venue and handle transfers as needed." },
             { question: "Do I need to appear at first?", answer: "We advise per case; we often appear for early dates and guide you on attendance." },
-            { question: "Can you help with license issues?", answer: "Yes—ALS filings and permit options are handled immediately with your Fulton case." },
+            { question: "Can you help with license issues?", answer: "Yes. ALS filings and permit options are handled immediately with your Fulton case." },
         ],
     },
     dekalb: {
@@ -60,7 +60,7 @@ export const locationPages: Record<string, LocationPageContent> = {
         ],
         faqs: [
             { question: "Will my case stay in municipal court?", answer: "Many DUIs transfer to State Court. We manage venue and timelines." },
-            { question: "How fast do I need to file ALS?", answer: "ALS deadlines are tight—typically 30 days. We file immediately." },
+            { question: "How fast do I need to file ALS?", answer: "ALS deadlines are tight, typically 30 days. We file immediately." },
             { question: "Do DeKalb judges allow virtual appearances?", answer: "Policies vary; we advise for each courtroom and date." },
         ],
     },

@@ -90,7 +90,7 @@ export const servicePages: Record<string, ServicePageContent> = {
                 answer: "Yes. The hearing can surface testimony and evidence that inform motions in the criminal case.",
             },
         ],
-        cta: "Call now—ALS deadlines move fast.",
+        cta: "Call now. ALS deadlines move fast.",
     },
     "refusal-defense": {
         title: "DUI Refusal Defense",
@@ -130,7 +130,7 @@ export const servicePages: Record<string, ServicePageContent> = {
                 answer: "It depends. We evaluate stop legality, warnings, and available defenses to guide next steps.",
             },
         ],
-        cta: "Call immediately—refusal cases are time-sensitive.",
+        cta: "Call immediately. Refusal cases are time-sensitive.",
     },
     "field-sobriety-tests": {
         title: "Field Sobriety & Roadside Test Challenges",
@@ -377,7 +377,7 @@ export const servicePages: Record<string, ServicePageContent> = {
         metaTitle: "Atlanta DUI Alcohol Lawyer | Per Se DUI Defense",
         metaDescription: "Fight per se DUI alcohol charges in Atlanta. Challenge stops, testing, and implied consent to protect your license and record.",
         subtitle: "Per se DUI defense for Metro Atlanta drivers.",
-        intro: "Per se DUI charges rely on BAC numbers—but numbers can be wrong. We challenge the stop, the testing device, and implied consent warnings to protect your license and record.",
+        intro: "Per se DUI charges rely on BAC numbers, but numbers can be wrong. We challenge the stop, the testing device, and implied consent warnings to protect your license and record.",
         highlights: [
             { title: "Breath/Blood Test Challenges", description: "Calibration, maintenance, chain of custody, and analyst credentials." },
             { title: "Stop & Probable Cause", description: "Suppress unlawful stops or checkpoint deviations." },
@@ -399,7 +399,7 @@ export const servicePages: Record<string, ServicePageContent> = {
             { question: "Do I have to appear in court?", answer: "We advise based on the stage and judge; we often appear on your behalf early." },
             { question: "Will I lose my license?", answer: "We act fast on ALS filings and explore permit options to keep you driving." },
         ],
-        cta: "Call now—per se DUI timelines move quickly.",
+        cta: "Call now. Per se DUI timelines move quickly.",
     },
     "dui-serious-injury": {
         title: "DUI with Serious Injury Defense",
@@ -425,10 +425,10 @@ export const servicePages: Record<string, ServicePageContent> = {
         ],
         faqs: [
             { question: "Is this a felony?", answer: "Serious injury DUIs can be felonies. We move quickly to assess exposure and defenses." },
-            { question: "Do I need experts?", answer: "Often yes—accident reconstruction and medical experts can challenge causation." },
-            { question: "What about my license?", answer: "ALS filings and permit options still apply—handled alongside the criminal case." },
+            { question: "Do I need experts?", answer: "Often yes. Accident reconstruction and medical experts can challenge causation." },
+            { question: "What about my license?", answer: "ALS filings and permit options still apply and are handled alongside the criminal case." },
         ],
-        cta: "Contact us immediately—felony exposure demands fast action.",
+        cta: "Contact us immediately. Felony exposure demands fast action.",
     },
     "dui-child-endangerment": {
         title: "DUI with Child Endangerment Defense",
@@ -463,7 +463,7 @@ export const servicePages: Record<string, ServicePageContent> = {
         title: "24/7 Emergency DUI Lawyer",
         metaTitle: "Emergency DUI Lawyer Atlanta | 24/7 DUI Help",
         metaDescription: "Arrested for DUI in Atlanta? Get 24/7 help to protect your license and case. Fast ALS filing and defense strategy.",
-        subtitle: "Arrested tonight? Call now—deadlines move fast.",
+        subtitle: "Arrested tonight? Call now. Deadlines move fast.",
         intro: "If you’ve just been arrested, the clock is already running on your license. We file ALS requests, review your stop, and start protecting your record immediately.",
         highlights: [
             { title: "Immediate ALS Action", description: "File fast to protect your license and explore permits." },
@@ -486,7 +486,7 @@ export const servicePages: Record<string, ServicePageContent> = {
             { question: "What if I refused?", answer: "Refusals heighten license risks. We address implied consent and stop legality immediately." },
             { question: "Can you appear for me?", answer: "We advise on appearances and often handle early court dates for clients." },
         ],
-        cta: "Call 678.568.9135 now—24/7 response for DUI arrests.",
+        cta: "Call 678.568.9135 now for 24/7 response to DUI arrests.",
     },
     "license-suspension": {
         title: "License Suspension Defense",
@@ -513,7 +513,7 @@ export const servicePages: Record<string, ServicePageContent> = {
         faqs: [
             { question: "Do I qualify for a permit?", answer: "Depends on the charge and history. We review options immediately." },
             { question: "What if I missed the deadline?", answer: "Act fast; we look for remaining options to minimize damage." },
-            { question: "Does fighting the case help the license?", answer: "Yes—hearings and motions can influence license outcomes." },
+            { question: "Does fighting the case help the license?", answer: "Yes. Hearings and motions can influence license outcomes." },
         ],
         cta: "Call now to protect your license before deadlines hit.",
     },

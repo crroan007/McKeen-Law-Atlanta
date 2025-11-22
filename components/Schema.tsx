@@ -116,7 +116,7 @@ export default function Schema() {
                 "name": "Why shouldn't I use a court-appointed attorney?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Court-appointed attorneys handle 200+ cases simultaneously. With McKeen Law, you're not a case number—you're a priority. You receive personal cell phone access, a custom defense strategy, and the resources needed to fight and win your case."
+                    "text": "Court-appointed attorneys handle 200+ cases simultaneously. With McKeen Law, you're not a case number; you're a priority. You receive personal cell phone access, a custom defense strategy, and the resources needed to fight and win your case."
                 }
             },
             {

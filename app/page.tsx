@@ -89,7 +89,7 @@ export default function Home() {
                                 Court-appointed attorneys handle 200+ cases. Yours is just another file on an overwhelming pile.
                             </p>
                             <p className="text-gray-700 mb-6 leading-relaxed font-medium">
-                                With McKeen Law, you're not a case number—you're a priority.
+                                With McKeen Law, you're not a case number; you're a priority.
                             </p>
                             <ul className="space-y-3">
                                 <li className="flex items-start gap-2 text-sm text-gray-700">
@@ -142,7 +142,7 @@ export default function Home() {
                             </div>
                             <h3 className="font-serif text-2xl font-bold text-brandGreen-900 mb-4 text-center">Former Prosecutor</h3>
                             <p className="text-gray-700 mb-4 leading-relaxed">
-                                Shane McKeen prosecuted hundreds of DUI and criminal cases. He knows their playbook—because he wrote it.
+                                Shane McKeen prosecuted hundreds of DUI and criminal cases. He knows their playbook because he wrote it.
                             </p>
                             <p className="text-gray-700 mb-6 leading-relaxed font-medium">
                                 Now he uses that insider knowledge to dismantle their case against you.
@@ -170,7 +170,7 @@ export default function Home() {
                             The prosecutor already has their strategy.
                         </p>
                         <p className="text-gray-600 mb-6 text-lg">
-                            You need someone who knows it—and knows how to beat it.
+                            You need someone who knows it and knows how to beat it.
                         </p>
                         <a href="tel:6785689135" className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold py-4 px-8 rounded-lg transition-colors text-lg shadow-lg">
                             Call 678.568.9135 Now
