@@ -7,7 +7,7 @@ import { Button } from './ui/button';
 
 export default function Header() {
     return (
-        <header className="bg-brandGreen-900 text-white py-4 sticky top-0 z-50 shadow-md">
+        <header className="text-white py-4 sticky top-0 z-50 shadow-md" style={{ backgroundColor: '#242b33' }}>
             <div className="container mx-auto px-4 flex items-center justify-start gap-8 lg:gap-12">
                 {/* Logo */}
                 <Link href="/" className="flex-shrink-0">
