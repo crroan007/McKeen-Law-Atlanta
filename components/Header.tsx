@@ -12,13 +12,12 @@ export default function Header() {
                 {/* Logo */}
                 <Link href="/" className="flex-shrink-0">
                     <Image
-                        src="/final-logo-transparent.png"
+                        src="/only-logo.png"
                         alt="McKeen Law Atlanta"
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="w-auto h-24 md:h-40 lg:h-56 object-contain object-left"
-                        style={{ filter: 'sepia(100%) saturate(150%) hue-rotate(10deg) brightness(0.9)' }}
+                        className="w-auto h-28 md:h-48 lg:h-64 object-contain object-left"
                         priority
                     />
                 </Link>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { MapPin, Phone, Mail, Facebook, Linkedin, Twitter } from 'lucide-react';
 
 export default function Footer() {
@@ -8,9 +9,16 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
                     {/* Brand Column */}
                     <div>
-                        <h3 className="text-2xl font-serif font-bold mb-4">
-                            McKeen Law <span className="text-gold-500">Atlanta</span>
-                        </h3>
+                        <div className="mb-4">
+                            <Image
+                                src="/only-logo.png"
+                                alt="McKeen Law Atlanta"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="w-auto h-20 md:h-24 object-contain object-left"
+                            />
+                        </div>
                         <p className="text-gray-300 mb-6">
                             Dedicated legal representation for criminal defense and personal injury cases in Atlanta and surrounding areas.
                         </p>
