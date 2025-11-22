@@ -8,7 +8,7 @@ import QuickContactForm from '@/components/QuickContactForm';
 
 export default function HeroSection() {
     return (
-        <section className="relative min-h-[75vh] flex items-center bg-brandGreen-900 py-12 lg:py-20 overflow-hidden">
+        <section className="relative min-h-[75vh] flex items-center py-12 lg:py-20 overflow-hidden border-t-4 border-gold-500" style={{ backgroundColor: '#242b33' }}>
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <Image
@@ -18,7 +18,7 @@ export default function HeroSection() {
                     className="object-cover opacity-15 grayscale mix-blend-luminosity"
                     priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-brandGreen-900 via-brandGreen-900/95 to-brandGreen-900/80" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#242b33] via-[#242b33]/95 to-[#242b33]/80" />
             </div>
 
             <div className="container relative z-10 mx-auto px-4">
