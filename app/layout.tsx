@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-import { Montserrat, EB_Garamond } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import GHLChat from "@/components/integrations/GHLChat";
 import Schema from "@/components/Schema";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
-
-const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat" });
-const ebGaramond = EB_Garamond({ subsets: ["latin"], variable: "--font-eb-garamond" });
+import Script from "next/script";
 
 export const metadata: Metadata = {
     title: "McKeen Law Atlanta | Criminal Defense Attorney",
@@ -21,7 +18,17 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={cn(montserrat.variable, ebGaramond.variable, "font-sans antialiased bg-slate-50 text-slate-900")}>
+            <head>
+                <link rel="preconnect" href="https://use.typekit.net/" crossOrigin="" />
+                <Script
+                    src="https://use.typekit.net/646866.js"
+                    strategy="beforeInteractive"
+                />
+                <Script id="typekit-load" strategy="beforeInteractive">
+                    {`try{Typekit.load({ async: true });}catch(e){}`}
+                </Script>
+            </head>
+            <body className={cn("font-serif antialiased bg-slate-50 text-slate-900")}>
                 {children}
                 <StickyMobileCTA />
                 <GHLChat />

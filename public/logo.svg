@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 90" fill="none">
+  <!-- Left Column -->
+  <g transform="translate(30, 22)">
+    <!-- Capital (top) -->
+    <rect x="-10" y="0" width="20" height="2.5" fill="#F8F4E6"/>
+    <path d="M -9 2.5 Q -9 6, -6 8 L 6 8 Q 9 6, 9 2.5 Z" fill="#F8F4E6"/>
+    <!-- Shaft -->
+    <rect x="-5" y="8" width="10" height="40" fill="#F8F4E6"/>
+    <!-- Base -->
+    <rect x="-11" y="48" width="22" height="2.5" fill="#F8F4E6"/>
+  </g>
+  
+  <!-- Right Column -->
+  <g transform="translate(80, 22)">
+    <!-- Capital (top) -->
+    <rect x="-10" y="0" width="20" height="2.5" fill="#F8F4E6"/>
+    <path d="M -9 2.5 Q -9 6, -6 8 L 6 8 Q 9 6, 9 2.5 Z" fill="#F8F4E6"/>
+    <!-- Shaft -->
+    <rect x="-5" y="8" width="10" height="40" fill="#F8F4E6"/>
+    <!-- Base -->
+    <rect x="-11" y="48" width="22" height="2.5" fill="#F8F4E6"/>
+  </g>
+  
+  <!-- Scales of Justice (centered between columns, LARGER) -->
+  <g transform="translate(55, 20)">
+    <!-- Central pole (thicker) -->
+    <rect x="-1" y="0" width="2" height="28" fill="#b5944a"/>
+    
+    <!-- Crossbar (thicker) -->
+    <rect x="-18" y="8" width="36" height="1.5" fill="#b5944a"/>
+    
+    <!-- Left scale pan (LARGER) -->
+    <g transform="translate(-13, 8)">
+      <line x1="-5" y1="0" x2="0" y2="6" stroke="#b5944a" stroke-width="1"/>
+      <line x1="5" y1="0" x2="0" y2="6" stroke="#b5944a" stroke-width="1"/>
+      <ellipse cx="0" cy="6" rx="6" ry="2" fill="none" stroke="#b5944a" stroke-width="1"/>
+      <!-- Pan base -->
+      <line x1="-6" y1="6" x2="6" y2="6" stroke="#b5944a" stroke-width="1"/>
+    </g>
+    
+    <!-- Right scale pan (LARGER) -->
+    <g transform="translate(13, 8)">
+      <line x1="-5" y1="0" x2="0" y2="6" stroke="#b5944a" stroke-width="1"/>
+      <line x1="5" y1="0" x2="0" y2="6" stroke="#b5944a" stroke-width="1"/>
+      <ellipse cx="0" cy="6" rx="6" ry="2" fill="none" stroke="#b5944a" stroke-width="1"/>
+      <!-- Pan base -->
+      <line x1="-6" y1="6" x2="6" y2="6" stroke="#b5944a" stroke-width="1"/>
+    </g>
+    
+    <!-- Top finial (larger) -->
+    <circle cx="0" cy="-2" r="2.5" fill="#b5944a"/>
+  </g>
+  
+  <!-- MCKEEN LAW text (LARGER) -->
+  <text x="110" y="45" font-family="'Trajan Pro', 'Times New Roman', serif" font-size="34" font-weight="400" letter-spacing="5" fill="#F8F4E6">
+    MCKEEN LAW
+  </text>
+  
+  <!-- ATLANTA, P.C. text -->
+  <text x="110" y="64" font-family="'Trajan Pro', 'Times New Roman', serif" font-size="12" font-weight="400" letter-spacing="3" fill="#b5944a">
+    ATLANTA, P.C.
+  </text>
+  
+  <!-- Decorative separator -->
+  <line x1="110" y1="53" x2="240" y2="53" stroke="#b5944a" stroke-width="0.5" opacity="0.5"/>
+</svg>

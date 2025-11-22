@@ -29,10 +29,9 @@ export default function HeroSection() {
                     transition={{ duration: 0.8 }}
                     className="w-full mb-12"
                 >
-                    <div className="bg-slate-200/95 backdrop-blur-md border-y-4 border-gold-500 py-6 px-6 text-center relative overflow-hidden group shadow-2xl">
-                        <p className="text-gold-600 text-xl md:text-2xl lg:text-3xl font-serif tracking-wider uppercase font-bold">
-                            <span className="mr-2">Former Prosecutor</span>
-                            <span className="block sm:inline mt-1 sm:mt-0">Now Metro Atlanta's Premier DUI & Criminal Defense Attorney</span>
+                    <div className="backdrop-blur-md border-y-4 border-gold-500 py-6 px-6 text-center relative overflow-hidden group shadow-2xl" style={{ backgroundColor: 'rgba(251, 249, 243, 0.95)' }}>
+                        <p className="text-gold-600 text-xl md:text-2xl lg:text-3xl font-serif tracking-wider uppercase font-bold" style={{ WebkitTextStroke: '0.5px black', textStroke: '0.5px black' }}>
+                            Former Prosecutor • Atlanta's Premier DUI & Criminal Defense Attorney
                         </p>
                     </div>
                 </motion.div>
@@ -65,8 +64,8 @@ export default function HeroSection() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.2 }}
                         >
-                            <h1 className="text-4xl lg:text-6xl font-serif font-bold text-white leading-tight mb-4">
-                                McKeen <span className="text-gold-500">Law</span>
+                            <h1 className="text-4xl lg:text-6xl font-display text-white leading-tight mb-4 tracking-wider">
+                                MCKEEN <span className="text-gold-500">LAW</span>
                             </h1>
                             <p className="text-xl lg:text-2xl text-white/90 font-light mb-6">
                                 Prosecutor Turned <span className="font-medium text-white">Defense Attorney</span>

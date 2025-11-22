@@ -44,8 +44,8 @@ export default async function ReviewsSection() {
     // Limit to 3 for the grid
     reviews = reviews.slice(0, 3);
 
-    const rating = data?.result?.rating || 5.0;
-    const totalReviews = data?.result?.user_ratings_total || 50; // Fallback count
+    const rating = 5.0; // Hardcoded as per user request
+    const totalReviews = 47; // Hardcoded as per user request
 
     return (
         <section className="py-20 bg-white">

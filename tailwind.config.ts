@@ -14,7 +14,7 @@ const config: Config = {
                     800: '#23523b', // Lighter Green variant
                 },
                 cream: {
-                    DEFAULT: '#F8F4E6',
+                    DEFAULT: '#FBF9F3',
                 },
                 gold: {
                     500: '#b5944a', // Legacy Gold
@@ -22,8 +22,9 @@ const config: Config = {
                 },
             },
             fontFamily: {
-                serif: ['var(--font-eb-garamond)', 'serif'],
-                sans: ['var(--font-montserrat)', 'sans-serif'],
+                serif: ['adobe-garamond-pro', 'Georgia', 'serif'],
+                sans: ['proxima-nova', 'system-ui', 'sans-serif'],
+                display: ['trajan-pro-3', 'adobe-garamond-pro', 'serif'], // For logo and major headings
             },
         },
     },

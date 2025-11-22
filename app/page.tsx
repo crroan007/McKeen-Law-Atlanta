@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import ReviewsSection from "@/components/ReviewsSection";
+import LocationsGrid from "@/components/LocationsGrid";
 import Footer from "@/components/Footer";
 import Schema from "@/components/Schema";
 import { Gavel, Car, ShieldAlert, Scale, FileWarning, Siren, CheckCircle, Clock, Star } from "lucide-react";
@@ -271,6 +272,9 @@ export default function Home() {
 
             {/* Google Reviews Section */}
             <ReviewsSection />
+
+            {/* Locations Grid */}
+            <LocationsGrid />
 
             {/* Practice Areas Section */}
             <section className="py-20 container mx-auto px-4">

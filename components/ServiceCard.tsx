@@ -12,7 +12,7 @@ export default function ServiceCard({ title, description, icon: Icon, href }: Se
     return (
         <Link
             href={href}
-            className="group relative block overflow-hidden rounded-lg border border-gray-200 bg-white p-8 transition-all hover:border-gold-500 hover:shadow-lg"
+            className="group relative block overflow-hidden rounded-lg border border-gray-200 bg-cream p-8 transition-all hover:border-gold-500 hover:shadow-lg"
         >
             <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-full bg-brandGreen-900/5 text-brandGreen-900 transition-colors group-hover:bg-gold-500 group-hover:text-white">
                 <Icon className="h-6 w-6" />

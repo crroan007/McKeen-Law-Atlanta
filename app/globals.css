@@ -4,7 +4,29 @@
 
 @layer base {
   body {
-    background-color: #F8F4E6;
+    background-color: #FBF9F3;
     color: theme("colors.gray.900");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Elegant typography for headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'adobe-garamond-pro', Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+
+  /* Display font for logo and major headings */
+  .font-display {
+    font-family: 'trajan-pro-3', 'adobe-garamond-pro', serif;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
 }

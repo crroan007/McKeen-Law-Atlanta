@@ -111,7 +111,7 @@ export default function ContactForm() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 {/* Form */}
                 <div className="lg:col-span-2">
-                    <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                    <form onSubmit={handleSubmit} className="bg-cream p-8 rounded-lg shadow-sm border border-gray-200">
                         {/* Success Message */}
                         {submitted && (
                             <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
