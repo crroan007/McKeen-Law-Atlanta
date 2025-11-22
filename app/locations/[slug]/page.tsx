@@ -68,7 +68,7 @@ export default function LocationPage({ params }: Props) {
             />
 
             {/* Hero Section */}
-            <section className="bg-brandGreen-900 text-white py-20 relative overflow-hidden">
+            <section className="bg-brandGreen-900 text-white py-20 relative overflow-hidden border-b-4 border-gold-500">
                 <div className="absolute inset-0 opacity-10 bg-[url('/hero-bg.webp')] bg-cover bg-center"></div>
                 <div className="container mx-auto px-4 relative z-10">
                     <Link href="/" className="inline-flex items-center text-gold-400 hover:text-gold-300 mb-6 transition-colors">
