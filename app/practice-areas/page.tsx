@@ -67,7 +67,7 @@ export default function PracticeAreas() {
             <Header />
 
             {/* Simple Banner to match legacy feel */}
-            <div className="bg-brandGreen-900 text-white py-16 mt-20">
+            <div className="bg-brandGreen-900 text-white py-16 mt-20 border-b-4 border-gold-500">
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4">Areas of Expertise</h1>
                     <div className="w-24 h-1 bg-gold-500 mx-auto" />
