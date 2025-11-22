@@ -22,8 +22,8 @@ const config: Config = {
                 },
             },
             fontFamily: {
-                serif: ['adobe-garamond-pro', 'Georgia', 'serif'],
-                sans: ['proxima-nova', 'system-ui', 'sans-serif'],
+                serif: ['trajan-pro-3', 'adobe-garamond-pro', 'Georgia', 'serif'],
+                sans: ['trajan-pro-3', 'proxima-nova', 'system-ui', 'sans-serif'],
                 display: ['trajan-pro-3', 'adobe-garamond-pro', 'serif'], // For logo and major headings
             },
         },

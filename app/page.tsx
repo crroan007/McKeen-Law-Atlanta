@@ -66,97 +66,6 @@ export default function Home() {
             <Header />
             <HeroSection />
 
-            {/* H2 Category Blurbs - PRD Requirement */}
-            <section className="py-16 bg-white border-b border-gray-200">
-                <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                        <div>
-                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
-                                <Link href="/dui-defense" className="hover:text-gold-500 transition-colors">
-                                    DUI Defense in Atlanta
-                                </Link>
-                            </h2>
-                            <p className="text-gray-600 leading-relaxed mb-3">
-                                Aggressive defense against DUI charges. Challenge field sobriety tests, breathalyzer results, and police procedure. Protect your license and record.
-                            </p>
-                            <Link href="/dui-defense" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
-                                Learn more →
-                            </Link>
-                        </div>
-
-                        <div>
-                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
-                                <Link href="/drug-possession" className="hover:text-gold-500 transition-colors">
-                                    Drug Possession Defense
-                                </Link>
-                            </h2>
-                            <p className="text-gray-600 leading-relaxed mb-3">
-                                Protecting your rights in drug cases. From simple possession to intent to distribute. Fight for reduced charges or dismissal.
-                            </p>
-                            <Link href="/drug-possession" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
-                                Learn more →
-                            </Link>
-                        </div>
-
-                        <div>
-                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
-                                <Link href="/serious-traffic-offenses" className="hover:text-gold-500 transition-colors">
-                                    Traffic Violations
-                                </Link>
-                            </h2>
-                            <p className="text-gray-600 leading-relaxed mb-3">
-                                Defense against reckless driving, hit and run, and serious traffic offenses. Keep your license and avoid points.
-                            </p>
-                            <Link href="/serious-traffic-offenses" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
-                                Learn more →
-                            </Link>
-                        </div>
-
-                        <div>
-                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
-                                <Link href="/crimes-against-persons" className="hover:text-gold-500 transition-colors">
-                                    Assault & Battery
-                                </Link>
-                            </h2>
-                            <p className="text-gray-600 leading-relaxed mb-3">
-                                Experienced representation for assault, battery, and domestic violence charges. Tell your side of the story.
-                            </p>
-                            <Link href="/crimes-against-persons" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
-                                Learn more →
-                            </Link>
-                        </div>
-
-                        <div>
-                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
-                                <Link href="/expungement" className="hover:text-gold-500 transition-colors">
-                                    Record Expungement
-                                </Link>
-                            </h2>
-                            <p className="text-gray-600 leading-relaxed mb-3">
-                                Clear your criminal record and move forward. Help seal eligible offenses in Georgia for a fresh start.
-                            </p>
-                            <Link href="/expungement" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
-                                Learn more →
-                            </Link>
-                        </div>
-
-                        <div>
-                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
-                                <Link href="/probation-violation" className="hover:text-gold-500 transition-colors">
-                                    Probation Violations
-                                </Link>
-                            </h2>
-                            <p className="text-gray-600 leading-relaxed mb-3">
-                                Representation in probation revocation hearings. Keep you out of jail and protect your probation status.
-                            </p>
-                            <Link href="/probation-violation" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
-                                Learn more →
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             {/* Why Choose McKeen Law - Condensed Section */}
             <section className="py-20 bg-slate-100">
                 <div className="container mx-auto px-4">
@@ -266,6 +175,97 @@ export default function Home() {
                         <a href="tel:6785689135" className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold py-4 px-8 rounded-lg transition-colors text-lg shadow-lg">
                             Call 678.568.9135 Now
                         </a>
+                    </div>
+                </div>
+            </section>
+
+            {/* H2 Category Blurbs - PRD Requirement */}
+            <section className="py-16 bg-white border-b border-gray-200">
+                <div className="container mx-auto px-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                        <div>
+                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
+                                <Link href="/dui-defense" className="hover:text-gold-500 transition-colors">
+                                    DUI Defense in Atlanta
+                                </Link>
+                            </h2>
+                            <p className="text-gray-600 leading-relaxed mb-3">
+                                Aggressive defense against DUI charges. Challenge field sobriety tests, breathalyzer results, and police procedure. Protect your license and record.
+                            </p>
+                            <Link href="/dui-defense" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
+                                Learn more →
+                            </Link>
+                        </div>
+
+                        <div>
+                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
+                                <Link href="/drug-possession" className="hover:text-gold-500 transition-colors">
+                                    Drug Possession Defense
+                                </Link>
+                            </h2>
+                            <p className="text-gray-600 leading-relaxed mb-3">
+                                Protecting your rights in drug cases. From simple possession to intent to distribute. Fight for reduced charges or dismissal.
+                            </p>
+                            <Link href="/drug-possession" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
+                                Learn more →
+                            </Link>
+                        </div>
+
+                        <div>
+                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
+                                <Link href="/serious-traffic-offenses" className="hover:text-gold-500 transition-colors">
+                                    Traffic Violations
+                                </Link>
+                            </h2>
+                            <p className="text-gray-600 leading-relaxed mb-3">
+                                Defense against reckless driving, hit and run, and serious traffic offenses. Keep your license and avoid points.
+                            </p>
+                            <Link href="/serious-traffic-offenses" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
+                                Learn more →
+                            </Link>
+                        </div>
+
+                        <div>
+                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
+                                <Link href="/crimes-against-persons" className="hover:text-gold-500 transition-colors">
+                                    Assault & Battery
+                                </Link>
+                            </h2>
+                            <p className="text-gray-600 leading-relaxed mb-3">
+                                Experienced representation for assault, battery, and domestic violence charges. Tell your side of the story.
+                            </p>
+                            <Link href="/crimes-against-persons" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
+                                Learn more →
+                            </Link>
+                        </div>
+
+                        <div>
+                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
+                                <Link href="/expungement" className="hover:text-gold-500 transition-colors">
+                                    Record Expungement
+                                </Link>
+                            </h2>
+                            <p className="text-gray-600 leading-relaxed mb-3">
+                                Clear your criminal record and move forward. Help seal eligible offenses in Georgia for a fresh start.
+                            </p>
+                            <Link href="/expungement" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
+                                Learn more →
+                            </Link>
+                        </div>
+
+                        <div>
+                            <h2 className="font-serif text-2xl font-bold text-brandGreen-900 mb-3">
+                                <Link href="/probation-violation" className="hover:text-gold-500 transition-colors">
+                                    Probation Violations
+                                </Link>
+                            </h2>
+                            <p className="text-gray-600 leading-relaxed mb-3">
+                                Representation in probation revocation hearings. Keep you out of jail and protect your probation status.
+                            </p>
+                            <Link href="/probation-violation" className="text-gold-500 font-medium hover:text-gold-600 transition-colors inline-flex items-center gap-1">
+                                Learn more →
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -29,8 +29,8 @@ export default function HeroSection() {
                     transition={{ duration: 0.8 }}
                     className="w-full mb-12"
                 >
-                    <div className="backdrop-blur-md border-y-4 border-gold-500 py-6 px-6 text-center relative overflow-hidden group shadow-2xl" style={{ backgroundColor: 'rgba(251, 249, 243, 0.95)' }}>
-                        <p className="text-gold-600 text-xl md:text-2xl lg:text-3xl font-serif tracking-wider uppercase font-bold" style={{ WebkitTextStroke: '0.5px black', textStroke: '0.5px black' }}>
+                    <div className="backdrop-blur-md border-y-[6px] border-double border-gold-500 py-5 px-6 text-center relative overflow-hidden group shadow-xl" style={{ backgroundColor: 'rgba(251, 249, 243, 0.98)' }}>
+                        <p className="text-gold-700 text-[clamp(0.7rem,2.5vw,1.5rem)] font-serif tracking-[0.15em] uppercase font-bold whitespace-nowrap leading-none">
                             Former Prosecutor • Atlanta's Premier DUI & Criminal Defense Attorney
                         </p>
                     </div>
